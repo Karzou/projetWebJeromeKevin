@@ -1,0 +1,295 @@
+.message_avertissement_javascript {
+  text-align: center;
+  color: gold;
+  background-color: red;
+  padding-top: 50px;
+  border-style: dashed;
+  border-color: gold;
+  border-radius: 2px;
+  box-shadow: 5px;
+  padding-bottom: 50px;
+}
+#errorBout{
+  text-decoration: none;
+}
+.error404 {
+  background-image: url(../img/erreur404-2.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+.message {
+  color: black;
+  background-color: rgb(191, 250, 191);
+  margin-right: 500px;
+  margin-left: 500px;
+  border-radius: 5px;
+  text-align: center;
+}
+#cacher {
+  display: none;
+}
+.formulaire {
+  width: 50%; /*2 formulaire doit occuper 80% de la page*/
+  margin: auto; /*formulaire centré*/
+  min-width: 650px; /*2 minimun 650 px des 80%*/
+  background-color: rgb(235, 224, 198); /*3 fond de couleur bleue foncée*/
+  color: white; /*4 le texte en blanc*/
+  padding: 20px;
+  border-radius: 5px;
+}
+h1 {
+  font-family: sans-serif; /*5 titre fonte sans-serif*/
+  font-size: double; /*5 titre taille double */
+  font-weight: normal; /*5 titre pas en gras*/
+  padding-bottom: 5px; /*5px de padding entre le titre et la bordure*/
+  margin: 0; /*afin d'eviter l'espace créer automatique par le h1*/
+  color: black;
+  opacity: 0.5; /*8 transparence 50%*/
+}
+hr /*6titre séparé du formulaire par une ligne blanche plein*/ {
+  background-color: white; /*6 couleur de la ligne*/
+  height: 1px; /*6 taille de la ligne*/
+  opacity: 0.5; /*6 transparence de la ligne 0.5*/
+  margin-bottom: 20px; /*6 20px de marge entre la bordure et le formulaire*/
+}
+body {
+  background-image: url(../img/image.jpg);
+}
+.content {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.titre {
+  margin-left: 0%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.row {
+  margin-top: 20px; /*7 espace vertical entre les champs avec marge de 20px*/
+}
+.lab {
+  vertical-align: top; /*8 les labels alignement vertical vers le haut*/
+  font-size: 120%; /*8 fonte de taille 120%*/
+  color: black; /*8 couleur blanche*/
+  opacity: 0.5; /*8 transparence 50%*/
+  padding-top: 5px; /*8 paddingen haut*/
+  display: inline-block; /*9pour pour aligner les imputs à droite*/
+  width: 200px; /*9 largeur des imput*/
+}
+.table {
+  color: black; /*4 le texte en blanc*/
+  box-shadow: 5px 5px 10px;
+}
+.inp /*point 10*/ {
+  width: 400px; /*10a largeur 400px*/
+  background-color: white; /*10b couleur de fond blanc*/
+  opacity: 0.5; /*10b couleur de fond 50% transparent*/
+  border-radius: 5px; /*10c coins arrondis*/
+  font-size: 120%; /*10d fonter 120%*/
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75); /*10 ombre */
+}
+.inpsucces {
+  width: 400px; /*10a largeur 400px*/
+  background-color: rgb(191, 250, 191); /*10b couleur de fond blanc*/
+  opacity: 0.5; /*10b couleur de fond 50% transparent*/
+  border-radius: 5px; /*10c coins arrondis*/
+  font-size: 120%; /*10d fonter 120%*/
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75); /*10 ombre */
+  border-color: green;
+}
+.inperror {
+  width: 400px; /*10a largeur 400px*/
+  background-color: rgb(250, 191, 191); /*10b couleur de fond blanc*/
+  opacity: 0.5; /*10b couleur de fond 50% transparent*/
+  border-radius: 5px; /*10c coins arrondis*/
+  font-size: 120%; /*10d fonter 120%*/
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75); /*10 ombre */
+  border-color: red;
+}
+.inp:focus /*11 focus*/ {
+  background-color: white;
+  opacity: 1;
+}
+.bout /*12 boutons*/ {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 100%;
+  color: white;
+  background-color: #c1aeaa;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1) 40%,
+    rgba(255.255.255, 0.5)
+  ); /*13 effet spectaculaire*/
+  border-radius: 5px;
+
+  box-shadow: 0 0 4px white;
+}
+.container_button /*point 14*/ {
+  width: 100%;
+  display: flex;
+}
+.container_button div /*poitn 14*/ {
+  margin: auto ;
+}
+.table_form, #myTable2 {
+  width: 50%;
+  margin-left: 25%;
+  border-spacing: 20px;
+  background-color: beige;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
+  text-align: center;
+
+}
+#tri1, #tri2 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 5%
+}
+#tri1{
+  margin-left: 25%;
+}
+.erreur{
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.bouton_check{
+  margin-left: 35%;
+  margin-top: 2%;
+  text-decoration: none;
+  
+}
+#bouton_retour {
+  margin-left: 35%;
+  margin-top: 2%;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
+  border: 2px solid;
+  /*pour avoir un effet "outset" avec IE :*/
+  border-color: #dcdcdc #696969 #696969 #dcdcdc;
+
+}
+#bouton_retour:focus {
+  background-color: #d3d3d3;
+  border-color: #696969 #dcdcdc #dcdcdc #696969;
+}
+
+.accueil_table {
+  width: 50%;
+  margin-left: 25%;
+  border-spacing: 20px;
+}
+.accueil {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
+}
+.titre_accueil {
+  margin-top: 5%;
+  margin-left: 32%;
+  margin-bottom: 5%;
+}
+.titre_liste {
+  
+  margin-left: 37%;
+  
+}
+.titre{
+  margin-left: 40%;
+}
+.meteo {
+  margin-left: 35%;
+  margin-top: 10%;
+}
+#widget_0c3d43eafe98072d6ef6b1ae1faa6af2 {
+   box-shadow: 5px 5px 10px;
+}
+.table {
+  width: 100%;
+  background-color: beige;
+  border-radius: 5px;
+  box-shadow: #696969;
+}
+.menu {
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  margin: 0 03px;
+  float: left; /*pour IE*/
+  list-style: none;
+}
+.menu ul li a {
+  display: block;
+  float: left;
+  width: auto;
+  background-color: #c1aeaa;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid;
+  /*pour avoir un effet "outset" avec IE :*/
+  border-color: #dcdcdc #696969 #696969 #dcdcdc;
+}
+.menu ul li a:hover {
+  background-color: #d3d3d3;
+  border-color: #696969 #dcdcdc #dcdcdc #696969;
+}
+footer /*13 footer*/ {
+  position: fixed; /*13 fixer le footer au bas de la fenêtre occupant toute la largueur*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*padding: 5px;*/
+  background-color: #c1aeaa;
+  color: white;
+}
+.copyright {
+  text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .nom {
+    position: static;
+    display: none;
+  }
+  .menu {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  ul,
+  .lab,
+  .inp,
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  form,
+  .table,
+  td,
+  .lab,
+  .inp,
+  .tab {
+    margin-top: 20px;
+    width: 60%;
+  }
+  .content {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    display: none;
+  }
+}
